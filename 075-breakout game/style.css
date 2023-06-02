@@ -15,13 +15,13 @@
 }
 
 body {
-  background-color: var(--background-color);
   background: linear-gradient(
     to right,
     var(--background-color),
     var(--button-color),
     var(--background-secondary-color)
   );
+  background-color: var(--background-color);  
   font-family: "Balsamiq Sans", cursive;
   display: flex;
   flex-direction: column;
