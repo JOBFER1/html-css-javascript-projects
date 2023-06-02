@@ -12,8 +12,8 @@ function toggleVideoStatus() {
 
 function updatePlayIcon() {
   video.paused
-    ? (play.innerHTML = '<i class="fa fa-play-circle fa-2x"></i>')
-    : (play.innerHTML = '<i class="fa fa-pause-circle fa-2x"></i>');
+    ? (play.innerHTML = '<em class="fa fa-play-circle fa-2x"></em>')
+    : (play.innerHTML = '<em class="fa fa-pause-circle fa-2x"></em>');
 }
 
 function updateProgress() {

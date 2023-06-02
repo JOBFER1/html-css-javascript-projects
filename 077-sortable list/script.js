@@ -31,7 +31,7 @@ function createList() {
         <span class="number">${index + 1}</span>
         <div class="draggable" draggable="true">
           <p class="person-name">${person}</p>
-          <i class="fas fa-grip-lines"></i>
+          <em class="fas fa-grip-lines"></em>
         </div>
       `;
       listItems.push(listItem);

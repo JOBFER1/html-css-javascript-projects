@@ -13,8 +13,8 @@ const addNewNote = (text = "") => {
   note.classList.add("note");
   note.innerHTML = `
   <div class="tools">
-        <button class="edit"><i class="fas fa-edit"></i></button>
-        <button class="delete"><i class="fas fa-trash-alt"></i></button>
+        <button class="edit"><em class="fas fa-edit"></em></button>
+        <button class="delete"><em class="fas fa-trash-alt"></em></button>
   </div>
   <div class="main ${text ? "" : "hidden"}"></div>
   <textarea class="${text ? "hidden" : ""}"></textarea>`;
