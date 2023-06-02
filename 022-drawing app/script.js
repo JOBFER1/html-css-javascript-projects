@@ -45,8 +45,8 @@ canvas.addEventListener("mouseup", (e) => {
 
 canvas.addEventListener("mousemove", (e) => {
   if (isPressed) {
-    x2 = e.offsetX;
-    y2 = e.offsetY;
+    let x2 = e.offsetX;
+    let y2 = e.offsetY;
     drawCircle(x2, y2);
     drawLine(x, y, x2, y2);
     x = x2;
